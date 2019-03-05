@@ -21,7 +21,7 @@
 from bs4 import BeautifulSoup
 from datetime import datetime
 from decimal import Decimal
-from geopy.distance import distance, lonlat
+from geopy.distance import lonlat
 
 class KMLPoint:
     """ Basic Representation of a KML point, currently only from what Skitude presents """

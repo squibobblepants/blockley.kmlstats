@@ -17,6 +17,7 @@
 #
 #    You should have received a copy of the GNU Lesser General Public License
 #    along with blockley.kmlstats. If not, see <http://gnu.org/licenses/>.
+from geopy.distance import distance
 class Stats:
     def __init__(self, datapoints):
         # Initialise our instance variables
